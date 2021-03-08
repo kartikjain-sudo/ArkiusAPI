@@ -15,7 +15,15 @@ const app = express()
 app.use(express.static(path.join(__dirname, 'public')))
 
 app.get('/', function(req, res) {
-  res.send('Get ready for Arkius!');
+  var metadata = {
+    "name": "Arkius Members",
+    "description": "Arkius Members are adorable aquatic beings primarily for demonstrating what can be done using the OpenSea platform. Adopt one today to try out all the OpenSea buying, selling, and bidding feature set.",
+    "image": "https://openseacreatures.io/image.png",
+    "external_link": "https://openseacreatures.io",
+    "seller_fee_basis_points": 100, //# Indicates a 1% seller fee.
+    "fee_recipient": "0x287A135702555F69BA6eE961f69ee60Fbb87A0e8" //# Where seller fees will be paid to.
+}
+  res.send(metadata);
 })
 
 app.get('/api/token/:token_id', function(req, res) {
