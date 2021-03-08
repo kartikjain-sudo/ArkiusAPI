@@ -82,44 +82,45 @@ for (var i = 1; i < 100; i++) {
     "image": `https://ipfs.io/ipfs/QmPey2czyZyiDMa6MJtoVRFKPHfUHrZawr1ZMoh9AhJU1y?filename=Screenshot_1.png`,
     "external_url": "",
     "attributes": [
+      {
+        "MembershipToken": `Member ${i}`,
+        "Payment": {
+          "Paid": 0,
+          "Amount": 0
+        },
+        "Identified": 0,
+        "Certifier": 0,
+        "Entity": 0,
+        "Values": {
+          "Propose": 1,
+          "Modify": 0,
+          "Vote": 0,
+          "Comment_Review": 0
+        },
+        "Certifications": {
+          "Propose": 1,
+          "Modify": 0,
+          "Vote": 0,
+          "Comment_Review": 0
+        },
+        "ForumPosts": {
+          "Create": 0,
+          "Modify": 0,
+          "Reply": 0,
+          "Vote": 0
+        },
+        "Proposals_Petitions": 0,
+        "EntityCertificateToken": 0,
+        "Champion": 0,
+        "Budget": {
+          "Vote": 0,
+          "Modify": 0,
+          "Compensation": 0,
+          "Comment_review": 0,
+          "Propose": 0
+        }
+      }
     ],
-    "MembershipToken":`Member ${i}`,
-    "Payment": {
-      "Paid": false,
-      "Amount": 0
-    },
-    "Identified": false,
-    "Certifier": false,
-    "Entity": false,
-    "values": {
-      "Propose": '',
-      "Modify": false,
-      "Vote": false,
-      "Comment/Review": false
-    },
-    "Certifications": {
-      "Propose": '',
-      "Modify": '',
-      "Vote": '',
-      "Comment/Review": ''
-    },
-    "ForumPosts": {
-      "Create": '',
-      "Modify": '',
-      "Reply": '',
-      "Vote": ''
-    },
-    "Proposals/Petitions": '',
-    "EntityCertificateToken": '',
-    "Champion": false,
-    "Budget": {
-      "Vote": '',
-      "modify": '',
-      "compensation": '',
-      "comment/review": '',
-      "propose": ''
-    }
-  }
 }
 module.exports = nft_obj;
 // = {
