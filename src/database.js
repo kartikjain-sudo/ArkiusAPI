@@ -102,45 +102,46 @@
 
 
 
-          {
-            "MembershipToken": `Member ${i}`,
-            "Payment": {
-              "Paid": 0,
-              "Amount": 0
-            },
-            "Identified": 0,
-            "Certifier": 0,
-            "Entity": 0,
-            "Values": {
-              "Propose": 1,
-              "Modify": 0,
-              "Vote": 0,
-              "Comment_Review": 0
-            },
-            "Certifications": {
-              "Propose": 1,
-              "Modify": 0,
-              "Vote": 0,
-              "Comment_Review": 0
-            },
-            "ForumPosts": {
-              "Create": 0,
-              "Modify": 0,
-              "Reply": 0,
-              "Vote": 0
-            },
-            "Proposals_Petitions": 0,
-            "EntityCertificateToken": 0,
-            "Champion": 0,
-            "Budget": {
-              "Vote": 0,
-              "Modify": 0,
-              "Compensation": 0,
-              "Comment_review": 0,
-              "Propose": 0
-            }
-          },
         ],
+                  {
+                    "MembershipToken": `Member ${i}`,
+                    "Payment": {
+                      "Paid": 0,
+                      "Amount": 0
+                    },
+                    "Identified": 0,
+                    "Certifier": 0,
+                    "Entity": 0,
+                    "Values": {
+                      "Propose": 1,
+                      "Modify": 0,
+                      "Vote": 0,
+                      "Comment_Review": 0
+                    },
+                    "Certifications": {
+                      "Propose": 1,
+                      "Modify": 0,
+                      "Vote": 0,
+                      "Comment_Review": 0
+                    },
+                    "ForumPosts": {
+                      "Create": 0,
+                      "Modify": 0,
+                      "Reply": 0,
+                      "Vote": 0
+                    },
+                    "Proposals_Petitions": 0,
+                    "EntityCertificateToken": 0,
+                    "Champion": 0,
+                    "Budget": {
+                      "Vote": 0,
+                      "Modify": 0,
+                      "Compensation": 0,
+                      "Comment_review": 0,
+                      "Propose": 0
+                    }
+                  },
+
     }
     }
     module.exports = nft_obj;
