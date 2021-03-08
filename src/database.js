@@ -78,12 +78,12 @@ function formatted_string(pad, str) {
 for (var i = 1; i < 100; i++) {
   nft_obj[Object.keys(nft_obj).length + 1] = {
     "name": `Member ${i}`,
-    "description": "Arkius member",
-    "image": ``,
+    "description": `Arkius Member`,
+    "image": `https://ipfs.io/ipfs/QmPey2czyZyiDMa6MJtoVRFKPHfUHrZawr1ZMoh9AhJU1y?filename=Screenshot_1.png`,
     "external_url": "",
     "attributes": [
     ],
-    "MembershipToken": " ",
+    "MembershipToken":`Member ${i}`,
     "Payment": {
       "Paid": false,
       "Amount": 0
