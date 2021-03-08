@@ -6,12 +6,42 @@ function formatted_string(pad, str) {
 
 for(var i=1;i<101;i++) {
   nft_obj[Object.keys(nft_obj).length+1] = {
-    "name": "Member",
-    "description": `Membership Number (#${formatted_string("000", i)} of 72)`,
-    "image": `https://s3.amazonaws.com/royale.finance/queen/royaleNFT-queen${formatted_string("00", i)}.jpg`,
-    "external_url": "",
-    "attributes": [
-    ]
+    Membership_token: 098789
+    Payment:{
+      Paid: true/false
+      Amount: 0000
+    }
+    “Identified”: true/false
+    “Certifier”: true/false
+    “Entity”: true/false:
+    “values”:{
+      “Propose”: “…….”
+      “Modify”: true/false
+      “Vote”: true/false  (vote can be only true, if identified and paid both is true)
+      “Comment/Review”: true/false
+    }
+    “Certifications”:{
+      “Propose”:
+      “Modify”: 
+      “Vote”: 
+      “Comment/Review”:
+    }
+    “Forum Posts”:{
+      “Create”:
+      “Modify”:
+      “Reply”:
+      “Vote” :
+    }
+    “Proposals/Petitions”:
+    “Entity certificate token”:
+    “Champion” : true/false
+    “Budget”:{
+      “Vote”:
+      “modify”:
+      “compensation”
+      “comment/review”:
+      “propose”
+    }
   }
 }
 
