@@ -103,7 +103,7 @@
 
 
         ],
-                  {
+        "extra_attributes" : {
                     "MembershipToken": `Member ${i}`,
                     "Payment": {
                       "Paid": 0,
