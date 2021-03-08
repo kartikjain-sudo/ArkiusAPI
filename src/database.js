@@ -119,8 +119,9 @@ for (var i = 1; i < 100; i++) {
           "Comment_review": 0,
           "Propose": 0
         }
-      }
+      },
     ],
+}
 }
 module.exports = nft_obj;
 // = {
