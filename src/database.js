@@ -84,20 +84,20 @@
         "attributes": [
             {
               "trait_type": "Identified",
-              "value": true
+              "value": "true"
             },
                     {
                       "trait_type": "Certifier",
-                      "value": false
+                      "value": "false"
                     },
              {
                                "trait_type": "Entity",
-                               "value": false
+                               "value": "false"
                              },
 
                              {
                                                "trait_type": "Champion",
-                                               "value": true
+                                               "value": "true"
                                              },
 
 
