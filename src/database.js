@@ -86,14 +86,15 @@
               "trait_type": "Identified",
               "value": "true"
             },
-                    {
+            {
                       "trait_type": "Certifier",
                       "value": "false"
-                    },
+             },
              {
-                               "trait_type": "Entity",
-                               "value": "false"
-                             },
+
+             "trait_type": "Entity",
+             "value": "false"
+             },
 
                              {
                                                "trait_type": "Champion",
@@ -105,8 +106,8 @@
         ],
         "extra_attributes" : {
                     "MembershipToken": `Member ${i}`,
-                    "Payment": {
-                      "Paid": 0,
+                    "Payment":
+                      "Paid": 0, {
                       "Amount": 0
                     },
                     "Identified": 0,
