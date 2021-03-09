@@ -1,4 +1,4 @@
-var nft_obj = {};
+ var nft_obj = {};
 
     function formatted_string(pad, str) {
       return (pad + str).slice(-pad.length);
